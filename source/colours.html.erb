@@ -1,0 +1,367 @@
+---
+title: Colours
+stylesheet: colours
+---
+
+<%
+  colours = [
+    {
+      :hex => '#19AACF',
+      :hsb=> {
+        :hue => 191,
+        :saturation => 88,
+        :brightness => 81
+      }
+    },
+    {
+      :hex => '#FFFFFF',
+      :hsb=> {
+        :hue => 0,
+        :saturation => 0,
+        :brightness => 100
+      }
+    },
+    {
+      :hex => '#F2F2F2',
+      :hsb=> {
+        :hue => 0,
+        :saturation => 0,
+        :brightness => 95
+      }
+    },
+    {
+      :hex => '#F5F8F9',
+      :hsb=> {
+        :hue => 194,
+        :saturation => 2,
+        :brightness => 98
+      }
+    },
+    {
+      :hex => '#F0F0F0',
+      :hsb=> {
+        :hue => 0,
+        :saturation => 0,
+        :brightness => 94
+      }
+    },
+    {
+      :hex => '#BDBDBD',
+      :hsb=> {
+        :hue => 0,
+        :saturation => 0,
+        :brightness => 74
+      }
+    },
+    {
+      :hex => '#222222',
+      :hsb=> {
+        :hue => 0,
+        :saturation => 0,
+        :brightness => 13
+      }
+    },
+    {
+      :hex => '#A6A6A6',
+      :hsb=> {
+        :hue => 0,
+        :saturation => 0,
+        :brightness => 65
+      }
+    },
+    {
+      :hex => '#323232',
+      :hsb=> {
+        :hue => 0,
+        :saturation => 0,
+        :brightness => 20
+      }
+    },
+    {
+      :hex => '#D5D5D5',
+      :hsb=> {
+        :hue => 0,
+        :saturation => 0,
+        :brightness => 84
+      }
+    },
+    {
+      :hex => '#BABABA',
+      :hsb=> {
+        :hue => 0,
+        :saturation => 0,
+        :brightness => 73
+      }
+    },
+    {
+      :hex => '#A65900',
+      :hsb=> {
+        :hue => 32,
+        :saturation => 100,
+        :brightness => 65
+      }
+    },
+    {
+      :hex => '#FCF0AD',
+      :hsb=> {
+        :hue => 52,
+        :saturation => 31,
+        :brightness => 99
+      }
+    },
+    {
+      :hex => '#333333',
+      :hsb=> {
+        :hue => 0,
+        :saturation => 0,
+        :brightness => 20
+      }
+    },
+    {
+      :hex => '#6C6C6C',
+      :hsb=> {
+        :hue => 0,
+        :saturation => 0,
+        :brightness => 42
+      }
+    },
+    {
+      :hex => '#2DAACD',
+      :hsb=> {
+        :hue => 192,
+        :saturation => 78,
+        :brightness => 80
+      }
+    },
+    {
+      :hex => '#3FC0E4',
+      :hsb=> {
+        :hue => 192,
+        :saturation => 72,
+        :brightness => 89
+      }
+    },
+    {
+      :hex => '#289CBD',
+      :hsb=> {
+        :hue => 192,
+        :saturation => 79,
+        :brightness => 74
+      }
+    },
+    {
+      :hex => '#303840',
+      :hsb=> {
+        :hue => 210,
+        :saturation => 25,
+        :brightness => 25
+      }
+    },
+    {
+      :hex => '#454545',
+      :hsb=> {
+        :hue => 0,
+        :saturation => 0,
+        :brightness => 27
+      }
+    },
+    {
+      :hex => '#999999',
+      :hsb=> {
+        :hue => 0,
+        :saturation => 0,
+        :brightness => 60
+      }
+    },
+    {
+      :hex => '#F1F1F1',
+      :hsb=> {
+        :hue => 0,
+        :saturation => 0,
+        :brightness => 95
+      }
+    },
+    {
+      :hex => '#4F4F4F',
+      :hsb=> {
+        :hue => 0,
+        :saturation => 0,
+        :brightness => 31
+      }
+    },
+    {
+      :hex => '#9C9C9C',
+      :hsb=> {
+        :hue => 0,
+        :saturation => 0,
+        :brightness => 61
+      }
+    },
+    {
+      :hex => '#C13C2C',
+      :hsb=> {
+        :hue => 6,
+        :saturation => 77,
+        :brightness => 76
+      }
+    },
+    {
+      :hex => '#FF86AB',
+      :hsb=> {
+        :hue => 343,
+        :saturation => 47,
+        :brightness => 100
+      }
+    },
+    {
+      :hex => '#EB4C3B',
+      :hsb=> {
+        :hue => 5,
+        :saturation => 75,
+        :brightness => 92
+      }
+    },
+    {
+      :hex => '#87C442',
+      :hsb=> {
+        :hue => 88,
+        :saturation => 66,
+        :brightness => 77
+      }
+    },
+    {
+      :hex => '#6ABE59',
+      :hsb=> {
+        :hue => 111,
+        :saturation => 53,
+        :brightness => 75
+      }
+    },
+    {
+      :hex => '#8A9292',
+      :hsb=> {
+        :hue => 180,
+        :saturation => 5,
+        :brightness => 57
+      }
+    },
+    {
+      :hex => '#F77F20',
+      :hsb=> {
+        :hue => 26,
+        :saturation => 87,
+        :brightness => 97
+      }
+    },
+    {
+      :hex => '#CED1D1',
+      :hsb=> {
+        :hue => 180,
+        :saturation => 1,
+        :brightness => 82
+      }
+    },
+    {
+      :hex => '#E1D58E',
+      :hsb=> {
+        :hue => 52,
+        :saturation => 37,
+        :brightness => 88
+      }
+    },
+    {
+      :hex => '#FBF0AC',
+      :hsb=> {
+        :hue => 53,
+        :saturation => 31,
+        :brightness => 98
+      }
+    },
+    {
+      :hex => '#41C37A',
+      :hsb=> {
+        :hue => 146,
+        :saturation => 67,
+        :brightness => 76
+      }
+    },
+    {
+      :hex => '#CD3827',
+      :hsb=> {
+        :hue => 5,
+        :saturation => 81,
+        :brightness => 80
+      }
+    },
+    {
+      :hex => '#EF8321',
+      :hsb=> {
+        :hue => 28,
+        :saturation => 86,
+        :brightness => 94
+      }
+    },
+    {
+      :hex => '#F7F7F7',
+      :hsb=> {
+        :hue => 0,
+        :saturation => 0,
+        :brightness => 97
+      }
+    },
+    {
+      :hex => '#F47D49',
+      :hsb=> {
+        :hue => 17,
+        :saturation => 70,
+        :brightness => 96
+      }
+    },
+    {
+      :hex => '#EDEFF0',
+      :hsb=> {
+        :hue => 199,
+        :saturation => 1,
+        :brightness => 94
+      }
+    },
+    {
+      :hex => '#3B5998',
+      :hsb=> {
+        :hue => 222,
+        :saturation => 61,
+        :brightness => 60
+      }
+    },
+    {
+      :hex => '#00ACED',
+      :hsb=> {
+        :hue => 195,
+        :saturation => 100,
+        :brightness => 93
+      }
+    },
+    {
+      :hex => '#82B541',
+      :hsb=> {
+        :hue => 86,
+        :saturation => 64,
+        :brightness => 71
+      }
+    }
+].sort_by { |color| [color[:hsb][:hue], color[:hsb][:saturation], color[:hsb][:brightness]] }
+
+%>
+
+<div class="colours">
+  <h2>Colours</h2>
+  <h3>(<%= colours.count %> in total)</h3>
+  <% colours.each do |color| %>
+    <div class="colour">
+      <div class="colour__swatch" style="background-color: <%= color[:hex] %>;">
+      </div>
+      <span><%= color[:hex].upcase %></span>
+    </div>
+  <% end %>
+</div>
+

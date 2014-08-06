@@ -1,0 +1,28 @@
+$typecsset-show-baseline:    true;
+$typecsset-base-font-size:   14px;
+$typecsset-base-line-height: 22px;
+
+@import 'vendor/typecsset';
+
+body {
+  padding: $typecsset-magic-number;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.colours {
+  margin: 0 auto;
+}
+
+.colour {
+  width: 24%;
+  display: inline-block;
+  margin-bottom: $typecsset-magic-number;
+  text-align: center;
+}
+
+.colour__swatch {
+  width: 100%;
+  height: $typecsset-magic-number * 4;
+}
+
+

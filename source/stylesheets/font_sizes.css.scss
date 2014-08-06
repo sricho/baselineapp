@@ -1,0 +1,44 @@
+$typecsset-show-baseline:    true;
+$typecsset-base-font-size:   14px;
+$typecsset-base-line-height: 22px;
+
+@import 'vendor/typecsset';
+
+body {
+  padding: $typecsset-magic-number;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.tiny h2 {
+  @include typecsset-font-size(8px);
+}
+.small h2 {
+  @include typecsset-font-size(11px);
+}
+.control h2 {
+  @include typecsset-font-size(13px);
+}
+.header h2 {
+  @include typecsset-font-size(13px);
+}
+.base h2 {
+  @include typecsset-font-size(14px);
+}
+.medium h2 {
+  @include typecsset-font-size(18px);
+}
+.large h2 {
+  @include typecsset-font-size(24px);
+}
+.rebrand-large h2 {
+  @include typecsset-font-size(30px);
+}
+.marketing h2 {
+  @include typecsset-font-size(36px);
+}
+.large-price h2 {
+  @include typecsset-font-size(42px);
+}
+.form h2 {
+  @include typecsset-font-size(16px);
+}

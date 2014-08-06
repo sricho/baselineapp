@@ -1,0 +1,50 @@
+$typecsset-show-baseline:    true;
+$typecsset-base-font-size:   14px;
+$typecsset-base-line-height: 22px;
+
+@import 'vendor/typecsset';
+
+body {
+  padding: $typecsset-magic-number;
+}
+
+.fonts {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.font {
+  overflow: hidden;
+}
+
+.font h2 {
+  float: left;
+  clear: both;
+  width: 50%;
+  @include typecsset-font-size(25px);
+}
+
+.font p {
+  float: right;
+  width: 50%
+}
+
+.helvetica {
+  font-family: 'Helvetica', Arial, sans-serif;
+}
+
+.helvetica-neue {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.lucida {
+  font-family: 'Lucida Grande', 'Helvetica Neue', sans-serif;
+}
+
+.georgia {
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.monaco {
+  font-family: 'Monaco', 'Courier New', Courier, monospace;
+}
