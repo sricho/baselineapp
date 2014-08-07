@@ -1,0 +1,57 @@
+$typecsset-show-baseline:    true;
+$typecsset-base-font-size:   14px;
+$typecsset-base-line-height: 22px;
+
+@import 'vendor/typecsset';
+
+body {
+  padding: $typecsset-magic-number;
+  font-family: 'Helvetica', sans-serif;
+}
+
+form {
+  width: 30%;
+}
+
+.input {
+  abbr {
+    color: darkred;
+    font-weight: bold;
+  }
+  label {
+    display: block;
+    @include typecsset-font-size(14px);
+    line-height: $typecsset-magic-number * 2;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    @include typecsset-font-size(14px);
+    box-shadow: 0px 0px 1px 0px #111111;
+    border-radius: 4px;
+    padding: $typecsset-magic-number / 2;
+    width: 100%;
+  }
+  select {
+    border: 0;
+    @include typecsset-font-size(14px);
+    box-shadow: 0px 0px 1px 0px #111111;
+    margin: 0;
+    border: 0;
+  }
+  textarea {
+    @include typecsset-font-size(14px);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-shadow: 0px 0px 1px 0px #222222;
+    height: $typecsset-magic-number * 6;
+    width: 100%;
+    border-radius: 4px;
+    padding: $typecsset-magic-number / 2;
+  }
+}
+

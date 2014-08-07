@@ -1,0 +1,31 @@
+---
+title: Forms
+stylesheet: form
+---
+
+<form accept-charset="UTF-8" action="/contacts" class="simple_form has-validation" id="new_ticket" method="post" novalidate="novalidate"><div style="display:none"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="sHDjNAjaX9JbL4vxA90oMsDX63c3yzU6nAWd0DBukXY="></div>
+  <div class="input string required ticket_name">
+    <label class="string required" for="ticket_name"><abbr title="required">*</abbr> Name</label>
+    <input class="string required parsley-validated" data-required="true" id="ticket_name" name="ticket[name]" type="text" placeholder="Enter your name ...">
+  </div>
+  <div class="input email required ticket_email">
+    <label class="email required" for="ticket_email"><abbr title="required">*</abbr> Email</label>
+    <input class="string email required parsley-validated" data-required="true" id="ticket_email" name="ticket[email]" type="email" placeholder="Enter your email ...">
+  </div>
+  <div class="input select required ticket_reason">
+    <label class="select required" for="ticket_reason"><abbr title="required">*</abbr> Reason</label>
+    <select class="select required parsley-validated" data-required="true" id="ticket_reason" name="ticket[reason]">
+      <option selected="selected" value=""></option>
+      <option value="General Inquiry">General Inquiry</option>
+      <option value="Customer Support Request">Customer Support Request</option>
+      <option value="Bug Report">Bug Report</option>
+      <option value="Beta Feedback">Beta Feedback</option>
+      <option value="Suggest a Service">Suggest a Service</option>
+      <option value="Inappropriate Service">Inappropriate Service</option>
+    </select>
+  </div>
+  <div class="input text required ticket_body">
+    <label class="text required" for="ticket_body"><abbr title="required">*</abbr> Comment</label>
+    <textarea class="text required parsley-validated" data-required="true" id="ticket_body" name="ticket[body]" placeholder="Share your thoughts ..."></textarea>
+  </div>
+</form>
